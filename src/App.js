@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './App.css';
 import arrow from './assets/images/arrow.svg'
+import Header from './Navbar';
 
 
 
@@ -61,6 +62,8 @@ class App extends Component{
   render(){
     const {array, currentIndex, find, isStarted} = this.state
     return(
+      <>
+      <Header />
       <div className="app d-flex bg-light">
         <div class="row container justify-content-center m-auto">
           <div className="col-12 col-sm-8">
@@ -91,7 +94,7 @@ class App extends Component{
           </div>
         </div>
       </div>
-
+      </>
     )
   }
 }
