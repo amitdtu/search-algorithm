@@ -22,3 +22,15 @@
 .bg-purple{
   background-color: #432874 !important;
 }
+
+.purple{
+  color: #432874;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.col{
+  padding: 0 !important;
+}
